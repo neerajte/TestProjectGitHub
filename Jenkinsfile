@@ -1,5 +1,5 @@
 node {
-    
+     
    stage('Checkout Code from GIT')
    {
        git branch: 'main', url: 'https://github.com/neerajte/TestProjectGitHub.git'
