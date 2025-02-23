@@ -22,8 +22,8 @@ node {
        sh "${mavenCMD} clean verify sonar:sonar \
   -Dsonar.projectKey=TestProjectGitHubSonar \
   -Dsonar.projectName='TestProjectGitHubSonar' \
-  -Dsonar.host.url=http://3.137.222.189:9000 \
-  -Dsonar.token=sqp_a620fe356bcb15b7ab81e0d414f03ec8c5515e47"
+  -Dsonar.host.url=http://18.220.192.113:9000 \
+  -Dsonar.token=sqp_84cf884ece2fa5caccb9507967aba7179e7bce56"
 
                        }
    }
